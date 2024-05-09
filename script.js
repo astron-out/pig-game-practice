@@ -53,7 +53,7 @@ holdBtn.addEventListener('click', function() {
     document.querySelector(`.current-score-${activePlayer}`).textContent = 0
     
     
-    if(scores[activePlayer] >= 20) {
+    if(scores[activePlayer] >= 100) {
         playing = false
         dice.classList.add('hidden')
         document.querySelector(`.side${activePlayer}`).classList.add('player-winner')
